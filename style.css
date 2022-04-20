@@ -1,0 +1,362 @@
+*{
+    box-sizing: border-box;
+    font-family:'Roboto', sans-serif;
+}
+
+ /* Clear fix */
+ .clearfix:after {
+    content: ".";
+    display: block;
+    clear: both;
+    visibility: hidden;
+    line-height: 0;
+    height: 0;
+}
+
+.clear {
+   clear: both;
+}
+
+
+
+/******************************************
+/* LAYOUT
+/*******************************************/
+
+/* header  and nav */
+
+header{
+    height: 50px;
+    clear: both;
+    text-align: center;
+    padding-left: 50px;
+
+}
+
+header button{
+    background: #333942;
+    color: white;
+    width: 70%;
+    border: none;
+    border-radius: 3px;
+    height: 30px;
+}
+
+header a{
+    text-decoration: none;
+    color: #333942;
+}
+
+nav li{
+    width: 15%;
+    float: left;
+    color: black;
+    list-style: none;
+}
+
+#ham{
+    display: none;
+}
+
+/* main section */
+
+main{
+    height: 300px;
+    padding-left: 50px;
+    background: #F1F3F5;
+    color: #333942;
+}
+
+h1{
+    text-align: center;
+}
+
+main button{
+    background: #B8C5CF;
+    border-radius: 5px;
+    height: 30px;
+    width: 20%;
+    border: none;
+}
+
+button:hover{
+    background: rgb(196, 196, 196);
+}
+
+main input{
+    width: 45%;
+    height: 30px;
+}
+
+.sub{
+    height: 300px;
+    width: 60%;
+    float: left;
+}
+
+.logo{
+    padding-left: 100px;
+}
+
+.wom{
+    height: 300px;
+    width: 40%;
+    float: left;
+}
+
+
+.wom img{
+    height: 300px;
+}
+
+
+/* what section */
+
+.what, .fish{
+    height: 250px;
+    color: #333942;
+}
+
+.what section{
+    height: 83.333px;
+    text-align: center;
+}
+
+.mid section{
+    height: 83.333px;
+    width: 50%;
+    float: left;
+    /* border-top: #FFDDF0; */
+}
+
+.history{
+    height: 450px;
+    background: #F1F3F5;
+    color: #333942;
+}
+
+
+/* our history section */
+
+.our{
+    height: 450px;
+    width: 60%;
+    float: left;
+    padding-top: 60px;
+}
+
+.pics{
+    height: 450px;
+    width: 40%;
+    float: left;
+}
+
+.pics img{
+    height: 120px;
+    width: 50%;
+    margin: 60px;
+}
+
+/* who we are section */
+
+.who{
+    height: 400px;
+    color: #333942;
+}
+
+.big{
+    height: 75px;
+    text-align: center;
+}
+
+.toko{
+    height: 300px;
+    border: 1px solid #F1F3F5;
+    width: 90%;
+    margin-left: 50px;
+}
+
+.face{
+    height: 300px;
+    border: 1px solid #F1F3F5;
+    width: 30%;
+    float: left;
+}
+
+.face img{
+    height: 275px;
+    width: 80%;
+    padding-left: 40px;
+    padding-top: 30px;
+}
+
+.words{
+    height: 300px;
+    border: 1px solid #F1F3F5;
+    width: 70%;
+    float: left;
+}
+
+/* fish family section */
+
+
+.fish section{
+    height: 250px;
+    width: 50%;
+    float: left;
+}
+
+/* sign up for our newsletter section */
+
+.sign{
+    height: 50px;
+    background: #B8C5D0;
+    color: white;
+}
+
+.sign section{
+    height: 50px;
+    width:50%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+#sign{
+    height: 30px;
+    width: 30%;
+}
+
+#submit{
+    background: #8F9CA3;
+    border: none;
+    border-radius: 3px;
+    width: 15%;
+    height: 30px;
+}
+
+#submit:hover{
+    background:rgb(247, 245, 245);
+}
+
+/* this is the footer */
+
+footer{
+    height: 200px;
+    clear: both;
+    background: #8F9CA3;
+    color: white;
+}
+
+footer a{
+    text-decoration: none;
+    color: white;
+}
+
+.copy{
+    height: 50px;
+}
+
+.cc{
+    height: 50px;
+    width: 40%;
+    float: left;
+    text-align: center;
+    padding-top: 10px;
+}
+
+.yt{
+    height: 50px;
+    width: 30%;
+    float: left;
+}
+
+.yt li{
+    width: 30%;
+    float: left;
+    list-style: none;
+}
+
+.home{
+    height: 150px;
+}
+
+.home li{
+    width: 12%;
+    list-style: none;
+    float: left;
+}
+
+
+/******************************************
+  /* ADDITIONAL STYLES
+  /*******************************************/
+
+
+  @media all and (max-width: 1000px){
+    .fish section{
+        width: 100%;
+    }
+
+    .fish{
+        height: 500px;
+    }
+  }
+
+  @media all and (max-width: 819px){
+      .what section{
+          width: 100%;
+      }
+      .what{
+          height: 300px;
+      }
+      .copy{
+          display: none;
+      } 
+      footer{
+          height: 150px;
+      }
+  }
+
+  @media all and (max-width: 719px){
+      .sub{
+          width: 100%;
+          float: none;
+      }
+      .wom{
+          display: none;
+      }
+      .history section{
+          width: 100%;
+      }
+      .pics{
+          display: none;
+      }
+      main{
+          text-align: center;
+      }
+      .sign section{
+          width: 100%;
+      }
+      .sign{
+          height: 100px;
+      }
+      .who{
+          height: 700px;
+      }
+      .toko{
+          margin-left: 0px;
+      }
+      header ul{
+        display:none;
+    }
+    #ham{
+        display: block;
+        text-align: center;
+        font-size: x-large;
+        padding-top: 10px;
+    }
+    .face,.words{
+        width: 100%;
+    }
+  }
