@@ -4,6 +4,8 @@ This is a mockup for the Japan Women's Leadership Initiative. It is a clean, sim
 
 **Link to project:** https://ecjwliamockup.netlify.app
 
+![jwli](https://user-images.githubusercontent.com/102037717/165101943-d079ed84-3679-49d0-a885-044523fb8c51.png)
+
 ## How It's Made:
 
 **Tech used:** HTML, CSS
